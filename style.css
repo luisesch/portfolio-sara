@@ -1,0 +1,351 @@
+:root {
+  --dark-purple: #2a2a34;
+  --light-purple: #dfd8ea;
+}
+
+html {
+  overflow-x: auto;
+}
+
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  overflow: hidden;
+}
+
+main {
+  overflow: hidden;
+}
+
+/* GLOBAL */
+
+/* Headings */
+
+.h1,
+.h2,
+.h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-size: 4.375rem;
+}
+
+.h2 {
+  font-size: 2.5rem;
+}
+
+.h3 {
+  font-size: 1.875rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* NAVIGATION */
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: black;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* HOME */
+
+/* Header */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.header-headlines {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Tahoma";
+  font-size: 1.3em;
+  color: white;
+}
+
+.header-overlay {
+  position: absolute;
+  width: 2000px;
+  left: 69vw;
+  height: 2000px;
+  transform: rotate(28deg);
+  background: var(--dark-purple);
+  bottom: -586px;
+}
+
+/* Projects */
+
+.projects-heading {
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 80px;
+  border-bottom: 5px solid var(--dark-purple);
+}
+
+.thinline {
+  width: 16vw;
+  height: 3px;
+  background-color: var(--dark-purple);
+}
+
+.projects-heading .h2 {
+  margin-left: 20px;
+  color: var(--dark-purple);
+}
+
+.projects-row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+
+.projects-row + .projects-row {
+  margin-top: 24vh;
+  padding-left: 30vh;
+}
+
+.project-container {
+  width: 36vh;
+  height: 39vh;
+  background-color: var(--light-purple);
+  position: relative;
+}
+
+.project-container + .project-container {
+  margin: 65px 0 0 200px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  height: 57vh;
+  width: 39vh;
+  overflow: hidden;
+}
+
+.project-img {
+  flex: 1;
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+}
+
+.project-info {
+  margin-top: 6px;
+}
+
+.project-info p {
+  font-size: 1.25rem;
+}
+
+/* Vita */
+
+.vita-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30vh;
+  margin-top: 24vh;
+}
+
+.vita-content {
+  position: relative;
+  width: 50%;
+}
+
+.vita-text {
+  position: relative;
+}
+
+.vita-background {
+  height: 50vh;
+  width: 200vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: var(--light-purple);
+  transform: rotate(25deg);
+  transform-origin: 62vh -65vw;
+}
+
+.vita-img {
+  width: 50%;
+}
+
+/* Kontakt */
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30vh;
+  margin-top: 14vh;
+  margin-bottom: 14vh;
+}
+
+.contact-content {
+  width: 50%;
+}
+
+.contact-content a {
+  display: inline-block;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-content a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  background: transparent;
+}
+
+.footer-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Noto Serif";
+  font-weight: bold;
+  color: black;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 481px) {
+  .h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .h2 {
+    font-size: 1rem;
+  }
+
+  .header-overlay {
+    display: none;
+  }
+
+  .projects-row {
+    flex-wrap: wrap;
+  }
+
+  .projects-row + .projects-row {
+    padding-left: 30px;
+  }
+
+  .project-container + .project-container {
+    margin-left: 0;
+    margin-top: 155px;
+  }
+
+  .vita-container,
+  .contact-container {
+    padding-left: 30px;
+  }
+
+  .vita-content,
+  .contact-content {
+    width: 100%;
+  }
+
+  .vita-background {
+    transform-origin: 31vh -65vw;
+  }
+}
+
+/* DATENSCHUTZ */
+
+.navbar-datenschutz {
+  background: white;
+}
+
+.navbar-datenschutz .nav-link {
+  color: black;
+}
+
+.datenschutz-container {
+  padding: 12vh 7vw;
+}
+
+.datenschutz-h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  hyphens: auto;
+}
+
+.datenschutz-h2 {
+  font-size: 1rem;
+}
+
+.datenschutz-h3 {
+  font-size: 0.938rem;
+}
+
+.datenschutz-text,
+.datenschutz-list {
+  margin-bottom: 12px;
+  font-size: 0.875rem;
+  font-style: normal;
+}
