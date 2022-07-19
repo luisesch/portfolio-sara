@@ -23,7 +23,7 @@ function createProject(project) {
           <div class="project-content">
             <h3 class="h3">${project.name}</h3>
             <div class="project-img">
-              <img src="./images/${project.mainImg}" />
+              <img src="./images/${project.folder}/${project.mainImg.url}" alt="${project.mainImg.alt}"/>
             </div>
             <div class="project-info">
               <p>${project.location}</p>
