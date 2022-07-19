@@ -45,6 +45,16 @@ p {
   font-size: 1rem;
 }
 
+.main-container {
+  padding: 12vh 7vw;
+}
+
+.main-h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  hyphens: auto;
+}
+
 /* NAVIGATION */
 
 .navbar {
@@ -55,6 +65,14 @@ p {
   top: 0;
   z-index: 1;
   background: black;
+}
+
+.navbar-light {
+  background: white;
+}
+
+.navbar-light .nav-link {
+  color: black;
 }
 
 .nav-list {
@@ -149,6 +167,8 @@ p {
   width: 30%;
   height: 360px;
   position: relative;
+  text-decoration: none;
+  color: black;
 }
 
 .project-container + .project-container {
@@ -339,25 +359,30 @@ p {
   }
 }
 
+/* PROJECT DETAILPAGE*/
+
+.projectpage-container {
+  display: flex;
+}
+
+.projectpage-container h1 {
+  margin-top: 0;
+}
+
+.projectpage-content {
+  width: 30%;
+}
+
+.projectpage-img {
+  width: 70%;
+  margin-left: 5vw;
+}
+
+.projectpage-img img {
+  width: 100%;
+}
+
 /* DATENSCHUTZ */
-
-.navbar-datenschutz {
-  background: white;
-}
-
-.navbar-datenschutz .nav-link {
-  color: black;
-}
-
-.datenschutz-container {
-  padding: 12vh 7vw;
-}
-
-.datenschutz-h1 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  hyphens: auto;
-}
 
 .datenschutz-h2 {
   font-size: 1rem;
