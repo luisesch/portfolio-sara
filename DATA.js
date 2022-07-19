@@ -9,9 +9,9 @@ export let projects = [
     images: [
       "wahrheitsschwestern/wahrheitsschwestern_1.jpg",
       "wahrheitsschwestern/wahrheitsschwestern_2.jpg",
+      "wahrheitsschwestern/wahrheitsschwestern_5.jpg",
       "wahrheitsschwestern/wahrheitsschwestern_3.jpg",
       "wahrheitsschwestern/wahrheitsschwestern_4.jpg",
-      "wahrheitsschwestern/wahrheitsschwestern_5.jpg",
     ],
   },
 ];
