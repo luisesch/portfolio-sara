@@ -159,7 +159,7 @@ p {
 }
 
 .projects-row:nth-child(odd) {
-  margin-top: 24vh;
+  margin-top: 95px;
   justify-content: flex-end;
 }
 
@@ -403,7 +403,7 @@ p {
 
   .project-container + .project-container {
     margin-left: 0;
-    margin-top: 155px;
+    margin-top: 95px;
   }
 
   .vita-container,
@@ -433,6 +433,7 @@ p {
 
   .projectpage-content {
     width: 100%;
+    margin-bottom: 35px;
   }
 
   .projectpage-img {
