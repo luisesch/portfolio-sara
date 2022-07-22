@@ -154,12 +154,16 @@ p {
 .projects-row {
   display: flex;
   flex-direction: row;
+  margin-top: 70px;
   padding: 0 14vw 0 10vw;
   justify-content: flex-start;
 }
 
+.projects-row:first-child {
+  margin-top: 0;
+}
+
 .projects-row:nth-child(odd) {
-  margin-top: 95px;
   justify-content: flex-end;
 }
 
