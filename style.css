@@ -3,18 +3,11 @@
   --light-purple: #dfd8ea;
 }
 
-html {
-  overflow-x: auto;
-}
-
 body {
   font-family: "Montserrat";
   margin: 0;
-  overflow: hidden;
-}
-
-main {
-  overflow: hidden;
+  padding-top: 45px;
+  overflow-x: hidden;
 }
 
 /* GLOBAL */
@@ -46,7 +39,7 @@ p {
 }
 
 .main-container {
-  padding: 12vh 7vw;
+  padding: 80px;
 }
 
 .main-h1 {
@@ -79,7 +72,7 @@ p {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .nav-link {
@@ -154,8 +147,8 @@ p {
 .projects-row {
   display: flex;
   flex-direction: row;
-  margin-top: 70px;
-  padding: 0 14vw 0 10vw;
+  margin-top: 100px;
+  padding: 0 80px;
   justify-content: flex-start;
 }
 
@@ -168,20 +161,20 @@ p {
 }
 
 .project-container {
-  width: 30%;
-  height: 360px;
+  width: 30vw;
+  height: 35vw;
   position: relative;
   text-decoration: none;
   color: black;
 }
 
 .project-container + .project-container {
-  margin: 8vh 0 0 10vw;
+  margin: 80px 0 0 115px;
 }
 
 .project-background {
   position: absolute;
-  width: 80%;
+  width: 85%;
   height: 72%;
   background-color: var(--light-purple);
 }
@@ -193,12 +186,11 @@ p {
   bottom: 0;
   right: 0;
   height: 100%;
-  width: 80%;
+  width: 85%;
 }
 
 .project-img {
   flex: 1;
-  overflow: hidden;
 }
 
 .project-img img {
@@ -222,6 +214,7 @@ p {
   justify-content: space-between;
   padding: 0 14vw 0 10vw;
   margin-top: 24vh;
+  position: relative;
 }
 
 .vita-content {
@@ -235,14 +228,14 @@ p {
 
 .vita-background {
   height: 50vh;
-  width: 200vw;
+  width: 120vw;
   position: absolute;
   top: 0;
   bottom: 0;
   z-index: -1;
   background: var(--light-purple);
-  transform: rotate(25deg);
-  transform-origin: 62vh -65vw;
+  transform: rotate(16deg);
+  transform-origin: 35vh -65vw;
 }
 
 .vita-img {
@@ -389,12 +382,26 @@ p {
     font-size: 1rem;
   }
 
+  .nav-list {
+    padding: 0px;
+  }
+
+  .main-container {
+    padding: 10px;
+  }
+
   .header-overlay {
     display: none;
   }
 
+  .projects-heading + .projects-row .project-container {
+    margin-top: 0;
+  }
+
   .projects-row {
     flex-wrap: wrap;
+    padding: 0 10px;
+    margin-top: 0;
   }
 
   .projects-row + .projects-row {
@@ -403,11 +410,17 @@ p {
 
   .project-container {
     width: 100%;
+    height: 360px;
+    margin-top: 150px;
   }
 
   .project-container + .project-container {
     margin-left: 0;
-    margin-top: 95px;
+    margin-top: 150px;
+  }
+
+  .projects-heading .h2 {
+    hyphens: auto;
   }
 
   .vita-container,
@@ -428,7 +441,7 @@ p {
   }
 
   .vita-background {
-    transform-origin: 31vh -65vw;
+    display: none;
   }
 
   .projectpage-container {
