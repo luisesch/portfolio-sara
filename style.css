@@ -8,6 +8,9 @@ body {
   margin: 0;
   padding-top: 2.813rem;
   overflow-x: hidden;
+  min-height: calc(100vh - 2.813rem);
+  display: flex;
+  flex-direction: column;
 }
 
 /* GLOBAL */
@@ -40,6 +43,7 @@ p {
 
 .main-container {
   padding: 5rem;
+  flex: 1;
 }
 
 .main-h1 {
@@ -440,6 +444,16 @@ p {
   margin-bottom: 0.75rem;
   font-size: 0.875rem;
   font-style: normal;
+}
+
+/* IMPRESSUM */
+
+.legal-address {
+  margin-bottom: 1rem;
+}
+
+.legal-contact {
+  margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 30.063rem) {
