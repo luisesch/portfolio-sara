@@ -140,8 +140,19 @@ export let projects = [
     description: "testprojekt Beschreibung",
     folder: "beispiel_projekt",
     mainImg: { url: "01.PNG", alt: "" },
-    images: [
-      { url: "01.PNG", alt: "" },
-    ],
+    images: [{ url: "01.PNG", alt: "" }],
+  },
+];
+
+export let dates = [
+  {
+    date: "18.11.2022",
+    title: "Premiere Anti-Liebestrank (Uraufführung)",
+    location: "Mon Ami Weimar",
+  },
+  {
+    date: "26.01.2023",
+    title: "Premiere Kuckuck im Koffer",
+    location: "Deutsches Nationaltheater Weimar",
   },
 ];
