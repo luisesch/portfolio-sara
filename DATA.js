@@ -132,16 +132,6 @@ export let projects = [
       { url: "0800_4.jpg", alt: "" },
     ],
   },
-  {
-    id: "9",
-    name: "testprojekt",
-    location: "testhausen",
-    dates: "24.12.2022",
-    description: "testprojekt Beschreibung",
-    folder: "beispiel_projekt",
-    mainImg: { url: "01.PNG", alt: "" },
-    images: [{ url: "01.PNG", alt: "" }],
-  },
 ];
 
 export let dates = [
