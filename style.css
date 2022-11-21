@@ -466,6 +466,10 @@ p {
   .h3 {
     font-size: 1rem;
   }
+  
+  .main-h1 {
+    overflow-wrap: break-word;
+  }
 
   .nav-list {
     padding: 0rem;
