@@ -38,7 +38,7 @@ export let projects = [
     name: "Die Wahrheitsschwestern (Uraufführung)",
     location: "Hochschule für Musik Weimar",
     dates: "Premiere: 25.10.2019 ",
-    description: "Regie: Eszter Johanna Barta<\nMusikalische Leitung: Giordano Bruno do Nascimento\nBühne: Elif Zengin\nKostüme: Sara Drasdo",
+    description: "Regie: Eszter Johanna Barta\nMusikalische Leitung: Giordano Bruno do Nascimento\nBühne: Elif Zengin\nKostüme: Sara Drasdo",
     folder: "wahrheitsschwestern",
     mainImg: { url: "wahrheitsschwestern_main.jpeg", alt: "" },
     images: [
@@ -54,7 +54,7 @@ export let projects = [
     name: "Es war Einmal",
     location: "Stellwerk e.V. Weimar",
     dates: "Premiere: 26.10.2019 ",
-    description: "Regie: Vincent Kresse<br>Bühne und Kostüm: Sara Drasdo",
+    description: "Regie: Vincent Kresse\nBühne und Kostüm: Sara Drasdo",
     folder: "einmal",
     mainImg: { url: "einmal_main.jpeg", alt: "" },
     images: [
@@ -70,7 +70,7 @@ export let projects = [
     name: "438 Tage NSU-Prozess - Eine theatrale Spurensuche",
     location: "Kunstfest Weimar in Kooperation mit dem DNT Weimar",
     dates: "Premiere: 25.08.2021",
-    description: "Regie: Nuran David Calis<br>Bühne: Irina Schicketanz<br>Kostüme: Sara Drasdo<br>Musik: Vivan Bhatti",
+    description: "Regie: Nuran David Calis\nBühne: Irina Schicketanz\nKostüme: Sara Drasdo\nMusik: Vivan Bhatti",
     folder: "nsu",
     mainImg: { url: "nsu_main.jpg", alt: "" },
     images: [
@@ -85,7 +85,7 @@ export let projects = [
     name: "Mutter",
     location: "Hochschule für Musik Weimar",
     dates: "Premiere: 01.10.2021",
-    description: "Regie: Eszter Johanna Barta<br>Musikalische Leitung: Giordano Bruno do Nascimento<br>Libretto: Romina Nikolic<br>Bühnen- und Kostümbild: Sara Drasdo",
+    description: "Regie: Eszter Johanna Barta\nMusikalische Leitung: Giordano Bruno do Nascimento\nLibretto: Romina Nikolic\nBühnen- und Kostümbild: Sara Drasdo",
     folder: "mutter",
     mainImg: { url: "mutter_main.jpeg", alt: "" },
     images: [
@@ -103,7 +103,7 @@ export let projects = [
     name: "Kreuzen und Queren",
     location: "Online",
     dates: "Online Premiere: 07.10.2021",
-    description: "Eine digitale Werkschau des B:Clubs+ Schauspiel<br>Eine Produktion der Bürgerbühne, Staatsschauspiel Dresden<br>Regie, Konzeption, Drehbuch: Ursula Hobmair, Simon Werdelis<br>Kostüme: Sara Drasdo",
+    description: "Eine digitale Werkschau des B:Clubs+ Schauspiel\nEine Produktion der Bürgerbühne, Staatsschauspiel Dresden\nRegie, Konzeption, Drehbuch: Ursula Hobmair, Simon Werdelis\nKostüme: Sara Drasdo",
     folder: "",
     mainImg: { url: "", alt: "" },
     images: [
@@ -112,9 +112,9 @@ export let projects = [
   {
     id: "8",
     name: "Our Legacy - Ostdeutsche Geschichte(n) of Color",
-    location: "Beim Montagscafè Staatsschauspiel Dresden",
-    dates: "18.10.2021<br>Im E-Werk DNT Weimar am 05.11.2021",
-    description: "Ein polyphoner Gesprächsabend von und mit Katharina Warda<br>Bühne/Maske: Sara Drasdo ",
+    location: "Beim Montagscafè Staatsschauspiel Dresden am 18.10.2021",
+    dates: "Im E-Werk DNT Weimar am 05.11.2021",
+    description: "Ein polyphoner Gesprächsabend von und mit Katharina Warda\nBühne/Maske: Sara Drasdo ",
     folder: "",
     mainImg: { url: "", alt: "" },
     images: [
@@ -125,7 +125,7 @@ export let projects = [
     name: "Man wird ja wohl noch träumen dürfen",
     location: "Stellwerk e.V. Weimar",
     dates: "Premiere: 14.07.2022 ",
-    description: "Regie: Debora Willing-Gäbler<br>Bühne und Kostüme: Sara Drasdo",
+    description: "Regie: Debora Willing-Gäbler\nBühne und Kostüme: Sara Drasdo",
     folder: "traeumen",
     mainImg: { url: "traeumen_main.jpg", alt: "" },
     images: [
