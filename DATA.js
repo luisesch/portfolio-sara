@@ -101,7 +101,7 @@ export let projects = [
   {
     id: "7",
     name: "Kreuzen und Queren",
-    location: "Eine digitale Werkschau des B:Clubs+ Schauspiel",
+    location: "Online",
     dates: "Online Premiere: 07.10.2021",
     description: "Eine digitale Werkschau des B:Clubs+ Schauspiel<br>Eine Produktion der Bürgerbühne, Staatsschauspiel Dresden<br>Regie, Konzeption, Drehbuch: Ursula Hobmair, Simon Werdelis<br>Kostüme: Sara Drasdo",
     folder: "",
@@ -112,9 +112,9 @@ export let projects = [
   {
     id: "8",
     name: "Our Legacy - Ostdeutsche Geschichte(n) of Color",
-    location: "Ein polyphoner Gesprächsabend von und mit Katharina Warda ",
-    dates: "Beim Montagscafè Staatsschauspiel Dresden am 18.10.2021<br>Im E-Werk DNT Weimar am 05.11.2021",
-    description: "Bühne/Maske: Sara Drasdo ",
+    location: "Beim Montagscafè Staatsschauspiel Dresden",
+    dates: "18.10.2021<br>Im E-Werk DNT Weimar am 05.11.2021",
+    description: "Ein polyphoner Gesprächsabend von und mit Katharina Warda<br>Bühne/Maske: Sara Drasdo ",
     folder: "",
     mainImg: { url: "", alt: "" },
     images: [
