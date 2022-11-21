@@ -4,7 +4,7 @@ export let projects = [
     name: "0800/1110333",
     location: "Stellwerk e.V. Weimar",
     dates: "Premiere: 23.02.2019",
-    description: "Regie: Tanja Linnekogel<br>Bühnen-und Kostümbild: Sara Drasdo",
+    description: "Regie: Tanja Linnekogel\nBühnen-und Kostümbild: Sara Drasdo",
     folder: "0800",
     mainImg: { url: "0800_main.jpeg", alt: "" },
     images: [
@@ -19,7 +19,7 @@ export let projects = [
     name: "Peer Gynt",
     location: "Stellwerk e.V. Weimar",
     dates: "Premiere: 28.06.2019 ",
-    description: "Regie: Bastian Heidenreich und Stephan Mahn<br>Bühne: Philipp Münnich<br>Kostüme: Sara Drasdo",
+    description: "Regie: Bastian Heidenreich und Stephan Mahn\nBühne: Philipp Münnich\nKostüme: Sara Drasdo",
     folder: "peer",
     mainImg: { url: "peer_main.jpeg", alt: "" },
     images: [
@@ -38,7 +38,7 @@ export let projects = [
     name: "Die Wahrheitsschwestern (Uraufführung)",
     location: "Hochschule für Musik Weimar",
     dates: "Premiere: 25.10.2019 ",
-    description: "Regie: Eszter Johanna Barta<br>Musikalische Leitung: Giordano Bruno do Nascimento<br>Bühne: Elif Zengin<br>Kostüme: Sara Drasdo",
+    description: "Regie: Eszter Johanna Barta<\nMusikalische Leitung: Giordano Bruno do Nascimento\nBühne: Elif Zengin\nKostüme: Sara Drasdo",
     folder: "wahrheitsschwestern",
     mainImg: { url: "wahrheitsschwestern_main.jpeg", alt: "" },
     images: [
